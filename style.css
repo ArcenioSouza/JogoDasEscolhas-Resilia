@@ -6,16 +6,16 @@
 
 body{
    width: 100%;
-   max-height: 100vh;
-   background: url("https://cdn.pixabay.com/photo/2019/01/05/01/49/classic-3914475_960_720.jpg");
-   background-size: cover;
-   background-repeat: no-repeat;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   background: linear-gradient(90deg, rgba(6,5,84,1) 8%, rgba(2,0,36,1) 38%, rgba(3,2,52,1) 63%, rgba(9,9,121,1) 90%);
 }
 
 .container{
-   width: 50%;
-   height: 100%;
-   margin: 100px auto;
+   width: 90%;
+   height: 85vh;
+   margin: auto;
    padding: 45px;
    display: flex;
    flex-direction: column;
@@ -24,7 +24,11 @@ body{
    color: #fff;
    font-size: 3rem;
    animation: titleMoviment 5s;
-   background-color: rgba(255, 255, 255, 0.205);
+   background:url("https://cdn.pixabay.com/photo/2015/09/20/22/38/library-948965_960_720.jpg");
+   background-size: cover;
+   border: 2px solid #000;
+   border-radius: 10px;
+   box-shadow: 0px 0px 25px #fff;
 }
 
 @keyframes titleMoviment {
@@ -35,3 +39,4 @@ body{
       opacity: 1;
    }
 }
+
