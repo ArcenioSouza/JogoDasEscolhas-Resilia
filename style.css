@@ -1,42 +1,89 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
 
-body{
-   width: 100%;
-   min-height: 100vh;
-   display: flex;
-   align-items: center;
-   background: linear-gradient(90deg, rgba(6,5,84,1) 8%, rgba(2,0,36,1) 38%, rgba(3,2,52,1) 63%, rgba(9,9,121,1) 90%);
+@font-face {
+  font-family: "HappyHalloween";
+  src: url("./fonts/HappyHalloween.otf");
 }
 
-.container{
-   width: 90%;
-   height: 85vh;
-   margin: auto;
-   padding: 45px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center; 
-   color: #fff;
-   font-size: 3rem;
-   animation: titleMoviment 5s;
-   background:url("https://cdn.pixabay.com/photo/2015/09/20/22/38/library-948965_960_720.jpg");
-   background-size: cover;
-   border: 2px solid #000;
-   border-radius: 10px;
-   box-shadow: 0px 0px 25px #fff;
+@font-face {
+  font-family: "GoodBrush";
+  src: url("./fonts/Good\ Brush.otf");
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(6, 5, 84, 1) 8%,
+    rgba(2, 0, 36, 1) 38%,
+    rgba(3, 2, 52, 1) 63%,
+    rgba(9, 9, 121, 1) 90%
+  );
+}
+
+.container {
+  width: 90%;
+  height: 85vh;
+  margin: auto;
+  padding: 45px;
+  display: flex;
+  color: #fff;
+  font-size: 3rem;
+  animation: titleMoviment 5s;
+  background: url("https://cdn.pixabay.com/photo/2015/09/20/22/38/library-948965_960_720.jpg");
+  background-size: cover;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px #fff;
 }
 
 @keyframes titleMoviment {
-   from{
-      opacity: 0;
-   }
-   to{
-      opacity: 1;
-   }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapper-title {
+  width: 700px;
+  height: 500px;
+  background: rgba(17, 16, 16, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+}
+
+.wrapper-title img{
+  width: 90%;
+}
+
+.wrapper-title h2{
+  margin-top: 25px;
+  font-family: "HappyHalloween";
+}
+
+.wrapper-title h5{
+  font-family: "HappyHalloween";
+}
+
+.wrapper-title button{
+  font-family: "GoodBrush";
+  margin-top: 25px;
+  font-size: 2rem;
+  padding: 5px 45px;
+  border-radius: 15px;
+  border: 1px solid #fff;
 }
 
