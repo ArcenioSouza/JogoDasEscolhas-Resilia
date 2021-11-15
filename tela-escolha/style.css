@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.container{
+   width: 100%;
+   height: 100vh;
+}
+
+.background-image{
+   width: 100%;
+   height: 100%;
+}
+
+.logotipo{
+   position: absolute;
+   width: 30%;
+   height: 20%;
+   left: 35%;
+   top: 5%;
+}
+
+.text-question{
+   position: absolute;
+   top: 30%;
+   left: 17%;
+   color: #fff;
+   font-family: 'Trade Winds', cursive;
+   font-size: 1.5rem;
+   text-shadow: 5px 5px 5px #000;
+}
+
+.wrapper-personagens{
+   position: absolute;
+   bottom: 15%;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.wrapper-personagens .image-harry{
+   width: 320px;
+   height: 350px;
+   margin-bottom: 10px;
+}
+
+.wrapper-personagens .image-draco{
+   width: 200px;
+   height: 350px;
+   margin-bottom: 10px;
+}
+
+.wrapper-personagens .image-voldemort{
+   width: 300px;
+   height: 350px;
+   margin-bottom: 10px;
+}
+
+.card-personagem{
+   width: 300px;
+   height: 400px;
+   text-align: center;
+   border: 2px solid #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   background-color: rgba(255, 255, 255, 0.479);
+   border-radius: 15px;
+}
+
+.card-personagem h3{
+   font-family: 'Trade Winds', cursive;
+   font-size: 1rem;
+   text-shadow: 5px 5px 5px #000;
+}
+
+.card-personagem:hover{
+   border-color: #ff0000;
+   background-color: rgba(253, 93, 93, 0.479);
+}
