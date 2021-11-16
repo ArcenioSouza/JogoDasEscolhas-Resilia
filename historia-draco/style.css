@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
 *{
    padding: 0;
    margin: 0;
@@ -23,11 +25,11 @@
 }
 
 .image-harry{
-   width: 20%;
+   width: 30%;
    height: 40%;
    position: absolute;
    bottom: 0;
-   left: 0;
+   left: -4%;
 }
 
 .text-box{
@@ -42,4 +44,24 @@
    font-size: 2rem;
    padding: 2%;
    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.text-box p{
+   margin-bottom: 50px;
+}
+
+.resp{
+   position: absolute;
+   bottom: 0;
+   left: 40.5%;
+   text-shadow: 5px 5px 5px #ff0000;
+   width: 19%;
+   margin: 0 auto;
+   font-family: 'Trade Winds', cursive;
+}
+
+.resp:hover{
+   color: #ff0000;
+   text-shadow: 5px 5px 5px #fff;
+   cursor: pointer;
 }
