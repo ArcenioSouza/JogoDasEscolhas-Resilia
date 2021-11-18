@@ -77,6 +77,8 @@ function opcoesJogo(personagem, fase, opcao) {
         return (location = "../gameOver.html");
       }
     }
+
+    //draco
   } else if (personagem == "draco") {
     if (fase == 0) {
       opcao = prompt("Digite a opção:\n1 para sim\n2 para não");
@@ -137,6 +139,8 @@ function opcoesJogo(personagem, fase, opcao) {
         return (location = "../gameOver.html");
       }
     }
+
+    //voldemort
   } else if(personagem == 'tom') {
     if (fase == 0) {
       opcao = prompt("Digite a opção:\n1 para sim\n2 para não");
@@ -148,7 +152,7 @@ function opcoesJogo(personagem, fase, opcao) {
       }
     } else if (fase == 1) {
       opcao = prompt(
-        "Digite o número que corresponde a sua resposta:\n1 para Narcisa\n2 para Ninfadora"
+        "Digite o número que corresponde a sua resposta:\n1 para Murta Warren\n2 para Luna Lovegood"
       );
 
       if (opcao == 1) {
@@ -158,7 +162,7 @@ function opcoesJogo(personagem, fase, opcao) {
       }
     } else if (fase == 2) {
       opcao = prompt(
-        "Digite o número que corresponde a sua resposta:\n1 para Neville \n2 para Vicente"
+        "Digite o número que corresponde a sua resposta:\n1 para 8 partes \n2 para 7 partes"
       );
 
       if (opcao == 1) {
@@ -168,7 +172,7 @@ function opcoesJogo(personagem, fase, opcao) {
       }
     } else if (fase == 3) {
       opcao = prompt(
-        "Digite o número que corresponde a sua resposta:\n1 Insultou os pais dele \n2 Conjurou uma cobra"
+        "Digite o número que corresponde a sua resposta:\n1 Sangue de servo fiel  | Cabelo do Harry | Ossos de Tom Riddle \n2 Sangue do Harry | Pedaço de servo fiel | Ossos do Pai"
       );
 
       if (opcao == 1) {
@@ -178,7 +182,7 @@ function opcoesJogo(personagem, fase, opcao) {
       }
     } else if (fase == 4) {
       opcao = prompt(
-        "Digite o número que corresponde a sua resposta:\n1 para 50 pontos \n2 para 100 pontos"
+        "Digite o número que corresponde a sua resposta:\n1 para Expelliarmus \n2 para Imperius"
       );
 
       if (opcao == 1) {
@@ -188,7 +192,7 @@ function opcoesJogo(personagem, fase, opcao) {
       }
     } else {
       opcao = prompt(
-        "Digite o número que corresponde a sua resposta:\n1 para Potter Fede \n2 Criado por trouxas"
+        "Digite o número que corresponde a sua resposta:\n1 para Delphini  \n2 para Belatrix"
       );
 
       if (opcao == 1) {
