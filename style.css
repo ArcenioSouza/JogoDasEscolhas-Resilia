@@ -8,8 +8,7 @@
 
 body {
   width: 100%;
-  min-height: 100vh;
-  font-size: 16px;
+  height: 100vh;
 }
 
 .container{
@@ -32,6 +31,7 @@ body {
   height: 30%;
   top: 5%;
   left: 10%;
+  object-fit: scale-down;
 }
 
 .container .button{
@@ -40,6 +40,7 @@ body {
   position: absolute;
   right: 20%;
   bottom: 15%;
+  object-fit: scale-down;
 }
 
 .button button{
@@ -49,7 +50,9 @@ body {
   border-radius: 15px;
   background-color: #ff0000;
   font-family: 'Trade Winds', cursive;
-  font-size: 1.5rem;
+  font-size:  2.5vw;
+
+  object-fit: scale-down;
 }
 
 .button button:hover{
@@ -63,4 +66,55 @@ body {
   color: #ff0000;
 }
 
+@media (max-width: 600px) {
+  .desktop{
+    display: none;
+    
+  }
 
+  .mobile{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    top: 5%;
+    left: 25%;
+    object-fit: scale-down;
+  }
+  
+  .container .button{
+    width: 50%;
+    height: 5%;
+    position: absolute;
+    right: 25%;
+    bottom: 5%;
+    object-fit: scale-down;
+  }
+  
+  .button button{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    border-radius: 15px;
+    background-color: #ff0000;
+    font-family: 'Trade Winds', cursive;
+    font-size:  4.5vw;  
+    object-fit: scale-down;
+  }
+  
+  .button button:hover{
+    border-color: #fff;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button button:active{
+    color: #ff0000;
+  }
+}
