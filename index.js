@@ -73,7 +73,59 @@ function opcoesJogo(personagem, fase, opcao){
       }
    }
 
-   }else if(personagem == draco){
+   }else if(personagem == 'draco'){
+    if(fase == 0){
+      opcao = prompt("Digite a opção:\n1 para sim\n2 para não")
+
+      if(opcao == 1){
+         return location = ("./Fase1.html")
+      }else {
+         return location = ("../tela-escolha/index.html")
+      }
+   }else if(fase == 1){
+     opcao = prompt("Digite o número que corresponde a sua resposta:\n1 para Narcisa\n2 para Ninfadora")
+
+      if(opcao == 1){
+         return location = ("./Fase2.html")
+      }else {
+         return location = ("../gameOver.html")
+      }
+
+   }else if(fase == 2){
+     opcao = prompt("Digite o número que corresponde a sua resposta:\n1 para Neville \n2 para Vicente")
+
+      if(opcao == 1){
+         return location = ("../gameOver.html")
+      }else {            
+         return location = ("./Fase3.html")
+      }
+      
+   }else if(fase == 3){
+     opcao = prompt("Digite o número que corresponde a sua resposta:\n1 Insultou os pais dele \n2 Conjurou uma cobra")
+
+      if(opcao == 1){
+         return location = ("../gameOver.html")
+      }else {            
+         return location = ("./Fase4.html")
+      }
+
+   }else if(fase == 4){
+     opcao = prompt("Digite o número que corresponde a sua resposta:\n1 para 50 pontos \n2 para 100 pontos")
+
+     if(opcao == 1){
+       return location = ("./Fase5.html")           
+     }else {            
+       return location = ("../gameOver.html")
+     }
+}else{
+   opcao = prompt("Digite o número que corresponde a sua resposta:\n1 para Potter Fede \n2 Criado por trouxas")
+
+   if(opcao == 1){
+     return location = ("../vitoria.html")        
+   }else {            
+     return location = ("../gameOver.html")
+   }
+}
 
    }else{
 
