@@ -6,16 +6,6 @@
   box-sizing: 0;
 }
 
-@font-face {
-  font-family: "HappyHalloween";
-  src: url("./fonts/HappyHalloween.otf");
-}
-
-@font-face {
-  font-family: "GoodBrush";
-  src: url("./fonts/GoodBrush.otf");
-}
-
 body {
   width: 100%;
   min-height: 100vh;
@@ -67,6 +57,10 @@ body {
   background-color: #000;
   color: #fff;
   cursor: pointer;
+}
+
+.button button:active{
+  color: #ff0000;
 }
 
 

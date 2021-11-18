@@ -65,3 +65,19 @@
    text-shadow: 5px 5px 5px #fff;
    cursor: pointer;
 }
+
+.voltar{
+   position: absolute;
+   bottom: 0;
+   right: 2%;
+   text-shadow: 5px 5px 5px #ff0000;
+   width: 19%;
+   margin: 0 auto;
+   font-family: 'Trade Winds', cursive;
+}
+
+.voltar:hover{
+   color: #ff0000;
+   text-shadow: 5px 5px 5px #fff;
+   cursor: pointer;
+}
