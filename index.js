@@ -1,5 +1,5 @@
 function iniciarJogo() {
-  return location("./tela-escolha/index.html");
+  return location = ("./tela-escolha/index.html");
 }
 
 function escolhaPersonagem(number) {
@@ -18,7 +18,7 @@ function opcoesJogo(personagem, fase, opcao){
    if(personagem == 'harry'){
       
       if(fase == 0){
-         opcao = prompt("digite:\n1 para sim\n2 para não")
+         opcao = prompt("Digite a opção:\n1 para sim\n2 para não")
 
          if(opcao == 1){
             return location = ("./Fase1.html")
@@ -26,6 +26,13 @@ function opcoesJogo(personagem, fase, opcao){
             return location = ("../tela-escolha/index.html")
          }
       }else if(fase == 1){
+        opcao = prompt("Digite o número que corresponde a sua resposta:\n1 para 1980\n2 para 1982")
+
+         if(opcao == 1){
+            return location = ("./Fase2.html")
+         }else {
+            return location = ("../tela-escolha/index.html")
+         }
 
       }else if(fase == 2){
          
