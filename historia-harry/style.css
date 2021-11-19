@@ -41,7 +41,7 @@
    border: 2px solid #fff;
    text-align: center;
    color: #fff;
-   font-size: 2rem;
+   font-size: calc(100% + 1.2vw);
    padding: 2%;
    background-color: rgba(0, 0, 0, 0.644);
 }
@@ -58,25 +58,10 @@
    width: 19%;
    margin: 0 auto;
    font-family: 'Trade Winds', cursive;
+   font-size: calc(100% + 0.6vw);
 }
 
 .resp:hover{
-   color: #ff0000;
-   text-shadow: 5px 5px 5px #fff;
-   cursor: pointer;
-}
-
-.voltar{
-   position: absolute;
-   bottom: 0;
-   right: 2%;
-   text-shadow: 5px 5px 5px #ff0000;
-   width: 19%;
-   margin: 0 auto;
-   font-family: 'Trade Winds', cursive;
-}
-
-.voltar:hover{
    color: #ff0000;
    text-shadow: 5px 5px 5px #fff;
    cursor: pointer;
