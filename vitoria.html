@@ -18,18 +18,21 @@
         width: 100%;
         height: 100vh;
       }
-      body img {
+      body .image1 {
         width: 100%;
         height: 100vh;
+        object-fit:fill;
+      }
+
+      body .image2 {
+        display: none;
       }
 
       .voltar {
         position: absolute;
         bottom: 2%;
-        left: 50%;
+        left: 10%;
         text-shadow: 5px 5px 5px #ff0000;
-        width: 20%;
-        margin: 0 auto;
         font-family: "Trade Winds", cursive;
         font-size: 2rem;
       }
@@ -43,11 +46,23 @@
       h1 {
         position: absolute;
         color: rgb(253, 4, 4);
-        font-size: 9rem;
+        font-size: calc(25px + 9vw);
         top: 2%;
         left: 10%;
         font-family: "Trade Winds", cursive;
         text-shadow: 5px 5px 5px #000;
+      }
+      @media (max-width: 600px) {
+        body .image1 {
+          display: none;
+        }
+
+        body .image2 {
+          display: block;
+          width: 100%;
+          height: 100vh;
+          object-fit:fill;
+        }
       }
     </style>
   </head>
@@ -55,8 +70,14 @@
     <h1>Vitória</h1>
 
     <img
+      class="image1"
       src="https://cdn.mensagenscomamor.com/content/images/m000011021.jpg?v=0&w=1024&h=768"
-      alt="GameOver"
+      alt="Imagem Vitória"
+    />
+    <img
+      class="image2"
+      src="https://cdn.frasestop.com/imagem/os/eg/o-segredo-esta-em-nao-desistir-mesmo-quando.jpg"
+      alt="Imagem Vitória"
     />
     <p class="voltar" onclick="voltar()">Voltar ao inicio</p>
     <script src="./index.js"></script>
