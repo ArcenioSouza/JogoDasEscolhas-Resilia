@@ -9,6 +9,8 @@
 body {
   width: 100%;
   height: 100vh;
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2020/11/harry-potter-following-the-darkness-4k_1606594935.jpg");
+  background-size: cover;
 }
 
 .container{
@@ -77,6 +79,15 @@ p {
 }
 
 @media (max-width: 600px) {
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.hdqwalls.com/walls/thumb/harry-potter-following-the-darkness-4k-tp.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+  }
+
   .desktop{
     display: none;
     
