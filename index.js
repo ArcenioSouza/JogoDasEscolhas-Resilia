@@ -72,7 +72,7 @@ function opcoesJogo(personagem, fase, opcao) {
       );
 
       if (opcao == 1) {
-        return (location = "../vitoria.html");
+        location = "../vitoria.html";
       } else {
         return (location = "../gameOver.html");
       }
@@ -141,7 +141,7 @@ function opcoesJogo(personagem, fase, opcao) {
     }
 
     //voldemort
-  } else if(personagem == 'tom') {
+  } else if (personagem == "tom") {
     if (fase == 0) {
       opcao = prompt("Digite a opção:\n1 para sim\n2 para não");
 

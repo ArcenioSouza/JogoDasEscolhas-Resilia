@@ -66,6 +66,16 @@ body {
   color: #ff0000;
 }
 
+p {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  color: #fff;
+  text-shadow: 5px 5px 5px #000;
+  font-family: "Trade Winds", cursive;
+  font-size: 2rem;
+}
+
 @media (max-width: 600px) {
   .desktop{
     display: none;

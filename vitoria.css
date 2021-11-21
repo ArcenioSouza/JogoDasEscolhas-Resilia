@@ -1,0 +1,59 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100%;
+        height: 100vh;
+      }
+      
+      .image1 {
+        width: 100%;
+        height: 100vh;
+        object-fit: fill;
+      }
+
+      .image2 {
+        display: none;
+      }
+
+      .voltar {
+        position: absolute;
+        bottom: 2%;
+        left: 10%;
+        text-shadow: 5px 5px 5px #ff0000;
+        font-family: "Trade Winds", cursive;
+        font-size: 2rem;
+      }
+
+      .voltar:hover {
+        color: #ff0000;
+        text-shadow: 5px 5px 5px #fff;
+        cursor: pointer;
+      }
+
+      h1 {
+        position: absolute;
+        color: rgb(253, 4, 4);
+        font-size: calc(25px + 9vw);
+        top: 2%;
+        left: 10%;
+        font-family: "Trade Winds", cursive;
+        text-shadow: 5px 5px 5px #000;
+      }
+      @media (max-width: 600px) {
+        body .image1 {
+          display: none;
+        }
+
+        body .image2 {
+          display: block;
+          width: 100%;
+          height: 100vh;
+          object-fit: fill;
+        }
+      }
