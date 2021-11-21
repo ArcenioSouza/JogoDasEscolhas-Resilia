@@ -20,6 +20,8 @@ Atividade de final de módulo do curso da Resilia.
 # Créditos
  - História baseada nos filmes do Harry Potter;
 
- - Fonte de consulta sobre características, histórias e biografia de cada personagem - site da FANDOM:  [https://harrypotter.fandom.com/pt-br/wiki/Draco_Malfoy](https://harrypotter.fandom.com/pt-br/wiki/Draco_Malfoy).
+ - Fonte de consulta sobre características, histórias e biografia de cada personagem - site da FANDOM:  
+ 
+ [https://harrypotter.fandom.com/](https://harrypotter.fandom.com/).
 
 
