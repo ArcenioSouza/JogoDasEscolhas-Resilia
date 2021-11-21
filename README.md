@@ -22,4 +22,6 @@ Atividade de final de módulo do curso da Resilia.
 
  - Fonte de consulta sobre características, histórias e biografia de cada personagem - site da FANDOM: [https://harrypotter.fandom.com/](https://harrypotter.fandom.com/).
 
+## Link para jogar
 
+[https://arceniosouza.github.io/JogoDasEscolhas-Resilia/](https://arceniosouza.github.io/JogoDasEscolhas-Resilia/)
