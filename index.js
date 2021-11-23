@@ -15,9 +15,15 @@ function escolhaPersonagem(number) {
 function voltar() {
   return (location = "./index.html");
 }
+var tentativa = 2
+function tenteNovamente(){
+  tentativa = tentativa - 1
+}
 
 function opcoesJogo(personagem, fase, opcao) {
+
   if (personagem == "harry") {
+    
     if (fase == 0) {
       opcao = prompt("Digite a opção:\n1 para sim\n2 para não");
 
@@ -34,18 +40,30 @@ function opcoesJogo(personagem, fase, opcao) {
       if (opcao == 1) {
         return (location = "./Fase2.html");
       } else {
-        return (location = "../gameOver.html");
+        tenteNovamente()
+        alert(`Você ainda tem ${tentativa} tentativas`) 
+        if(tentativa != 0){
+          return (location = "./Fase1.html");
+        }else{}
+          return (location = "../gameOver.html");
       }
+
     } else if (fase == 2) {
       opcao = prompt(
         "Digite o número que corresponde a sua resposta:\n1 para Lily \n2 para Petúnia"
       );
 
       if (opcao == 1) {
-        return (location = "../gameOver.html");
+        tenteNovamente()
+        alert(`Você ainda tem ${tentativa} tentativas`) 
+        if(tentativa != 0){
+          return (location = "./Fase2.html");
+        }else{}
+          return (location = "../gameOver.html");
       } else {
         return (location = "./Fase3.html");
       }
+
     } else if (fase == 3) {
       opcao = prompt(
         "Digite o número que corresponde a sua resposta:\n1 para Atacante \n2 para Apanhador"
