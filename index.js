@@ -15,10 +15,6 @@ function escolhaPersonagem(number) {
 function voltar() {
   return (location = "./index.html");
 }
-var tentativa = 2
-function tenteNovamente(){
-  tentativa = tentativa - 1
-}
 
 function opcoesJogo(personagem, fase, opcao) {
 
@@ -40,12 +36,7 @@ function opcoesJogo(personagem, fase, opcao) {
       if (opcao == 1) {
         return (location = "./Fase2.html");
       } else {
-        tenteNovamente()
-        alert(`Você ainda tem ${tentativa} tentativas`) 
-        if(tentativa != 0){
-          return (location = "./Fase1.html");
-        }else{}
-          return (location = "../gameOver.html");
+        return (location = "../gameOver.html");
       }
 
     } else if (fase == 2) {
